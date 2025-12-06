@@ -26,6 +26,13 @@ namespace POOCalcMedia
 
                 if (double.TryParse(StrNota1, out nota))
                 {
+                    // Validação da nota entre 0 e 25
+                    if (nota < 0 || nota > 25)
+                    {
+                        Console.WriteLine("Nota inválida. Por favor, digite uma nota entre 0 e 25.");
+                        continue;
+                    }
+
                     Nota1 = nota;
                     nota1Valida = true;
                 }
@@ -42,6 +49,13 @@ namespace POOCalcMedia
                 string StrNota2 = Console.ReadLine();
                 if (double.TryParse(StrNota2, out nota))
                 {
+                    // Validação da nota entre 0 e 25
+                    if (nota < 0 || nota > 25)
+                    {
+                        Console.WriteLine("Nota inválida. Por favor, digite uma nota entre 0 e 25.");
+                        continue;
+                    }
+
                     Nota2 = nota;
                     nota2Valida = true;
                 }
@@ -58,6 +72,13 @@ namespace POOCalcMedia
                 string StrNota3 = Console.ReadLine();
                 if (double.TryParse(StrNota3, out nota))
                 {
+                    // Validação da nota entre 0 e 25
+                    if (nota < 0 || nota > 25)
+                    {
+                        Console.WriteLine("Nota inválida. Por favor, digite uma nota entre 0 e 25.");
+                        continue;
+                    }
+
                     Nota3 = nota;
                     nota3Valida = true;
                 }
@@ -74,6 +95,13 @@ namespace POOCalcMedia
                 string StrNota4 = Console.ReadLine();
                 if (double.TryParse(StrNota4, out nota))
                 {
+                    // Validação da nota entre 0 e 25
+                    if (nota < 0 || nota > 25)
+                    {
+                        Console.WriteLine("Nota inválida. Por favor, digite uma nota entre 0 e 25.");
+                        continue;
+                    }
+
                     Nota4 = nota;
                     nota4Valida = true;
                 }

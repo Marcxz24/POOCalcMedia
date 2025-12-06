@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# Build
+bin/
+obj/
+Debug/
+Release/
+
+# Outros arquivos temporários
+*.user
+*.suo
+*.cache
+*.db
+*.db-shm
+*.db-wal
+*.json.backup
+*.vsidx
